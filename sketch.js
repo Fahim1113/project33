@@ -20,7 +20,7 @@ function setup() {
 function draw() {
   background(bg);  
   Engine.update(engine)
-  //if(frameCount%60===0){
+  if(frameCount%60===0){
     snow.display(); 
-  //}
+  }
 }
